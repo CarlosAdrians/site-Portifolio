@@ -1,0 +1,79 @@
+/* WRAPPER (centraliza) */
+.navbar-wrapper {
+  position: fixed;
+  top: 20px;
+  left: 0;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+
+  z-index: 1000;
+}
+
+/* NAVBAR */
+.navbar {
+  width: 90%;
+  max-width: 1200px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 15px 30px;
+
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 50px;
+
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* LOGO */
+.logo {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 28px;
+  letter-spacing: 2px;
+}
+
+/* LINKS */
+.nav-links {
+  display: flex;
+  gap: 35px;
+}
+
+.nav-links a {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 20px;
+  letter-spacing: 1px;
+
+  color: #000;
+  transition: 0.3s;
+}
+
+/* LINK ATIVO */
+.nav-links .active {
+  color: #a70000;
+}
+
+/* HOVER */
+.nav-links a:hover {
+  color: #a70000;
+}
+
+/* ÍCONES */
+.nav-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.nav-icons img {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  transition: 0.1s;
+}
+
+/* HOVER NOS ICONES */
+.nav-icons img:hover {
+  transform: scale(1.1);
+}

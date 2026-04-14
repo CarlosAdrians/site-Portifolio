@@ -1,0 +1,40 @@
+.footer {
+  background: #000;
+  padding: 20px 10%;
+}
+
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* LOGO */
+.footer-logo {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 24px;
+  color: #fff;
+}
+
+/* TEXTO CENTRAL */
+.footer-text {
+  color: #ccc;
+  font-size: 14px;
+}
+
+/* LINKS */
+.footer-links {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-links a {
+  color: #ccc;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+/* HOVER */
+.footer-links a:hover {
+  color: #fc9f00;
+}
