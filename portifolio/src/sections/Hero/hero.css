@@ -1,5 +1,8 @@
 .hero {
   height: 100vh;
+  position: sticky;
+  top: 0;
+  z-index: 0;
 
   background-image: url("../../assets/images/hero-bg.png");
   background-size: cover;
@@ -7,6 +10,59 @@
   background-repeat: no-repeat;
 
   display: flex;
-  align-items: center;
-  padding: 0 10%;
+  justify-content: center;
+}
+
+/* TÍTULO GRANDE */
+.hero-title {
+  position: absolute;
+  top: 10%;
+
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 200px;
+  letter-spacing: 5px;
+
+  color: #a70000;
+  transition: 0.3s;
+}
+
+/* IMAGEM CENTRAL */
+.hero-center {
+  position: relative;
+  z-index: 2;
+  
+  display: flex;
+  align-items: flex-end;
+}
+
+.hero-image {
+  height: 400px;
+  object-fit: cover;
+  transition: 0.3s;
+}
+
+/* TEXTO ESQUERDA */
+.hero-left {
+  position: absolute;
+  left: 10%;
+  bottom: 30%;
+
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 40px;
+
+  color: #000;
+  transition: 0.3s;
+}
+
+/* TEXTO DIREITA */
+.hero-right {
+  position: absolute;
+  right: 10%;
+  bottom: 30%;
+
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 40px;
+
+  color: #000;
+  transition: 0.3s;
 }

@@ -1,7 +1,7 @@
 /* WRAPPER (centraliza) */
 .navbar-wrapper {
   position: fixed;
-  top: 20px;
+  top: 10px;
   left: 0;
   width: 100%;
 
@@ -15,6 +15,7 @@
 .navbar {
   width: 90%;
   max-width: 1200px;
+  height: 50px;
 
   display: flex;
   align-items: center;
@@ -31,7 +32,7 @@
 /* LOGO */
 .logo {
   font-family: 'Bebas Neue', sans-serif;
-  font-size: 28px;
+  font-size: 25px;
   letter-spacing: 2px;
 }
 
@@ -50,11 +51,6 @@
   transition: 0.3s;
 }
 
-/* LINK ATIVO */
-.nav-links .active {
-  color: #a70000;
-}
-
 /* HOVER */
 .nav-links a:hover {
   color: #a70000;
@@ -67,8 +63,8 @@
 }
 
 .nav-icons img {
-  width: 30px;
-  height: 30px;
+  width: 25px;
+  height: 25px;
   cursor: pointer;
   transition: 0.1s;
 }
